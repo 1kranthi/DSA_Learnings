@@ -1,14 +1,3 @@
-
-class TreeNode{
-    int data;
-    TreeNode left,right;
-
-    public TreeNode(int key){
-        data=key;
-        left=right=null;
-    }
-}
-
 public class Binary_Search_Preorder {
     TreeNode root;
 
