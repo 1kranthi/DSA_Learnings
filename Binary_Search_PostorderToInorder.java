@@ -1,13 +1,3 @@
-class TreeNode {
-    int data;
-    TreeNode left, right;
-
-    public TreeNode(int item) {
-        data = item;
-        left = right = null;
-    }
-}
-
 public class Binary_Search_PostorderToInorder {
 
     // Class-level variable to track the index in the postorder array (starting from the last element)
