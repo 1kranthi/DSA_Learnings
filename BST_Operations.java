@@ -32,7 +32,7 @@ public class BST_Operations{
         return root;
     }
 
-    //Search for a nde in the BST
+    //Search for a node in the BST
     public boolean search(int key){
         return searchRec(root,key);
     }
